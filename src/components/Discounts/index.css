@@ -1,0 +1,130 @@
+.discounts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discounts div h1 {
+    color: #000;
+    text-align: center;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px 20px;
+}
+
+.discounts div h4 {
+    color: #000;
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.discounts ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 5px;
+    margin: 3px 20px;
+}
+
+.discounts ul li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .discounts div h1 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .discounts div h1 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+
+        padding: 10px 20px;
+    }
+
+    .discounts div h4 {
+        margin: 15px 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .discounts div h4 {
+        width: 423px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .discounts h4 {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .discounts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discounts div h1 {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 688px;
+        margin: 30px 10px;
+    }
+
+    .discounts div h4 {
+        width: 423px;
+        margin: auto;
+
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .discounts ul li {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 52px 20px;
+    }
+}

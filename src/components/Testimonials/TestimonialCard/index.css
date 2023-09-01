@@ -1,0 +1,50 @@
+.testimonialCard {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 296px;
+    width: 290px;
+
+
+    padding: 0px 10px;
+
+
+}
+
+.testimonialCard img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.testimonialCard h3 {
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 16px 0px;
+}
+
+.testimonialCard h4 {
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 20px 0px;
+}
+
+.testimonialCard hr {
+    width: 126px;
+    height: 0px;
+    stroke-width: 1px;
+
+    border: 1px solid #a0cd9e;
+    margin: 12px 0px;
+}
