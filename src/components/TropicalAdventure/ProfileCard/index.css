@@ -1,0 +1,72 @@
+.profileCard {
+    display: flex;
+    background-color: white;
+    padding: 25px;
+    align-items: center;
+    margin: 50px 0px;
+    border-radius: 20px;
+}
+
+.profileCard img {
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.details h3 {
+    color: var(--black, #000);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.details h5 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .profileCard {
+        margin: 20px 10px;
+
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+    body {
+        background-color: rgb(133, 239, 133);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+    body {
+        background-color: rgb(254, 175, 188);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: rgb(115, 100, 190);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: rgb(95, 189, 183);
+    }
+}

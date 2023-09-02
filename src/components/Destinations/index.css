@@ -24,7 +24,7 @@
     width: 100%;
     gap: 20px;
 
-    padding: 20px 30px;
+    padding: 20px 10px;
 
 
 
@@ -72,6 +72,6 @@
     }
 
     .destinations-cards {
-        margin-left: 119px;
+        padding-left: 119px;
     }
 }

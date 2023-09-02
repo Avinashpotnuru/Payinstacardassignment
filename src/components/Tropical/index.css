@@ -1,0 +1,343 @@
+.tropical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 251, 244);
+    height: 969px;
+    width: 100%;
+}
+
+.content {
+    order: 1;
+}
+
+.content h3 {
+    color: #1f2027;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.content h1 {
+    color: #1f2027;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 100px; */
+    margin-bottom: 50px;
+}
+
+.content span {
+    color: #1f2027;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.content p {
+    color: #505c59;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.content button {
+    display: flex;
+    padding: 16px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 30px;
+    background: #f27a44;
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.imageContainer {
+    height: 360px;
+    width: 300px;
+    /* border: red 2px solid; */
+    position: relative;
+    border-radius: 0 0 55% 55%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.imageContainer1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+
+
+    /* border-radius: 100% 100% 0 0; */
+    background-color: #87cc81;
+    bottom: 0;
+
+
+
+}
+
+.profileImage {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+
+
+}
+
+.icon1 {
+    display: none;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .tropical {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1300px;
+        background-color: rgb(253, 251, 244);
+    }
+
+    .content h3 {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .content span {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+
+    .content h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .content h1 {
+        font-size: 50px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .content span {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+
+
+
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+    .content h3 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .content h1 {
+        font-size: 55px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .content span {
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    .tropical {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+
+
+    }
+
+    .content {
+        order: 0;
+        width: 50%;
+    }
+
+
+    .content h3 {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .content span {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+
+    .imageContainer {
+        height: 540px;
+        width: 450px;
+
+
+        position: relative;
+        border-radius: 0 0 55% 55%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+
+
+    }
+
+    .imageContainer1 {
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        position: absolute;
+
+
+        /* border-radius: 100% 100% 0 0; */
+        background-color: #87cc81;
+        bottom: 0;
+
+
+
+    }
+
+    .profileImage {
+        height: 600px;
+        width: 400px;
+        /* position: absolute;
+        bottom: 0; */
+
+
+
+    }
+
+    .icon1 {
+        display: inline;
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+
+    .content h3 {
+        color: #1f2027;
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .content h1 {
+        color: #1f2027;
+        font-family: Poppins;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        /* line-height: 100px; */
+        margin-bottom: 50px;
+    }
+
+    .content span {
+        color: #1f2027;
+        font-family: Poppins;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .content p {
+        color: #505c59;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+}

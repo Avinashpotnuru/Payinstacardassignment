@@ -1,0 +1,143 @@
+.tropicalAdventure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    /* align-items: center; */
+
+    position: relative;
+    height: 100%;
+
+}
+
+.offers h1 {
+    color: #1F2027;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.offers span {
+    color: #1F2027;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.offers h3 {
+    color: #1F2027;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.offers ul {
+    list-style: disc;
+    margin-bottom: 60px;
+    padding: 20px 30px;
+}
+
+.offers button {
+    align-self: flex-start;
+    display: flex;
+    padding: 16px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 30px;
+    background: #f27a44;
+    margin: 0px auto;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 600px) {
+    .tropicalAdventure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offers h1 {
+        color: #000;
+        font-family: Inter;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 10px 0px;
+    }
+
+    .offers span {
+        color: #000;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .subtract {
+        display: none;
+    }
+
+    .ellipse {
+        display: none;
+
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .subtract {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1020px) {
+    .tropicalAdventure {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .tropicalAdventure {
+        margin: 220px 0px;
+    }
+
+    .ellipse {
+        display: inline;
+
+    }
+
+    .subtract {
+        display: inline;
+    }
+
+
+
+}

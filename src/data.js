@@ -53,3 +53,11 @@ export const ourDestinationsData = [
     address: "Nanyang Ave, Singapura",
   },
 ];
+
+export const recharges = [
+  "Lorem ipsum dolor sit amet",
+  "Massa quis natoque sit quam ",
+  "Eros non pellentesque elit",
+  "tortor id euismod habitant",
+  "Sed suspendisse id in ultrices",
+];

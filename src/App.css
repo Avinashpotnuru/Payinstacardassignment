@@ -7,6 +7,17 @@
 
 .components {
   margin: 120px 0px;
+
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+
+  /* margin: auto 0px; */
 }
 
 
