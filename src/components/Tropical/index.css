@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Plus+Jakarta+Sans:wght@400;500&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,100;0,500;0,700;1,100;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+
 .tropical {
     display: flex;
     flex-direction: column;
@@ -6,15 +9,17 @@
     background-color: rgb(253, 251, 244);
     height: 969px;
     width: 100%;
+    position: relative;
 }
 
 .content {
     order: 1;
+    position: relative;
 }
 
 .content h3 {
     color: #1f2027;
-
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -23,7 +28,7 @@
 
 .content h1 {
     color: #1f2027;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
@@ -65,7 +70,6 @@
     line-height: normal;
 }
 
-
 .imageContainer {
     height: 360px;
     width: 300px;
@@ -76,9 +80,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
 }
 
 .imageContainer1 {
@@ -87,13 +88,9 @@
     border-radius: 50%;
     position: absolute;
 
-
     /* border-radius: 100% 100% 0 0; */
     background-color: #87cc81;
     bottom: 0;
-
-
-
 }
 
 .profileImage {
@@ -101,9 +98,6 @@
     width: 100%;
     position: absolute;
     bottom: 0;
-
-
-
 }
 
 .icon1 {
@@ -111,15 +105,29 @@
     margin-bottom: 10px;
 }
 
+.logo1 {
+    display: none;
+}
 
+.logo2 {
+    display: none;
+    /* display: flex;
+    justify-content: center; */
+}
 
+.logo3 {
+    display: none;
+    position: absolute;
+    right: 240px;
+    bottom: 130px;
+}
 
-
-
-
-
-
-
+.logo4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -130px;
+}
 
 @media screen and (max-width: 600px) {
     .tropical {
@@ -127,8 +135,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 1300px;
+        height: 800px;
         background-color: rgb(253, 251, 244);
+    }
+
+    .content {
+        padding: 20px;
+        margin: 20px 0px;
     }
 
     .content h3 {
@@ -148,16 +161,9 @@
         font-style: normal;
         font-weight: 500;
     }
-
-
-
-
-
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (min-width: 600px) {
-
     .content h3 {
         font-size: 20px;
         font-weight: 600;
@@ -175,18 +181,9 @@
         font-style: normal;
         font-weight: 500;
     }
-
-
-
-
-
-
-
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-
     .content h3 {
         font-size: 25px;
         font-weight: 600;
@@ -204,27 +201,20 @@
         font-style: normal;
         font-weight: 500;
     }
-
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
     .tropical {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-
-
-
     }
 
     .content {
         order: 0;
         width: 50%;
     }
-
 
     .content h3 {
         font-size: 15px;
@@ -244,11 +234,9 @@
         font-weight: 500;
     }
 
-
     .imageContainer {
         height: 540px;
         width: 450px;
-
 
         position: relative;
         border-radius: 0 0 55% 55%;
@@ -256,11 +244,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
-
-
-
-
     }
 
     .imageContainer1 {
@@ -269,13 +252,9 @@
         border-radius: 50%;
         position: absolute;
 
-
         /* border-radius: 100% 100% 0 0; */
         background-color: #87cc81;
         bottom: 0;
-
-
-
     }
 
     .profileImage {
@@ -283,21 +262,33 @@
         width: 400px;
         /* position: absolute;
         bottom: 0; */
-
-
-
     }
 
     .icon1 {
         display: inline;
         margin-bottom: 20px;
     }
+
+    .logo1 {
+        display: inline;
+    }
+
+    .logo2 {
+        display: inline;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo3 {
+        display: inline;
+    }
+
+    .logo4 {
+        display: inline;
+    }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-
-
     .content h3 {
         color: #1f2027;
 
@@ -334,10 +325,4 @@
         line-height: normal;
         margin-bottom: 50px;
     }
-
-
-
-
-
-
 }

@@ -1,4 +1,4 @@
-.tropicalAdventure {
+.availableDiscounts {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,11 +15,11 @@
 
     position: relative;
     height: 100%;
-
+    order: 2;
 }
 
 .offers h1 {
-    color: #1F2027;
+    color: #1f2027;
     font-family: Inter;
     font-size: 40px;
     font-style: normal;
@@ -28,7 +28,7 @@
 }
 
 .offers span {
-    color: #1F2027;
+    color: #1f2027;
     font-family: Inter;
     font-size: 30px;
     font-style: normal;
@@ -36,16 +36,13 @@
     line-height: normal;
 }
 
-
-
 .offers h3 {
-    color: #1F2027;
+    color: #1f2027;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-
 }
 
 .offers ul {
@@ -64,7 +61,7 @@
     border-radius: 30px;
     background: #f27a44;
     margin: 0px auto;
-    color: #FFF;
+    color: #fff;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -72,11 +69,80 @@
     line-height: normal;
 }
 
+.discountimageContainer {
+    height: 360px;
+    width: 300px;
+    /* border: red 2px solid; */
+    position: relative;
+    border-radius: 0 0 55% 55%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+}
+
+.discountimageContainer1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+
+    /* border-radius: 100% 100% 0 0; */
+    background-color: #87cc81;
+    bottom: 0;
+}
+
+.profileImage {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.recbox {
+    height: 80px;
+    width: 350px;
+    margin-left: 180px;
+}
+
+.logo6 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    display: none;
+}
+
+.logo7 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 120px;
+    right: -140px;
+    display: none;
+}
+
+.logo8 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
     .tropicalAdventure {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .offers {
+        padding: 20px;
+        margin: 20px 0px;
     }
 
     .offers h1 {
@@ -104,21 +170,35 @@
 
     .ellipse {
         display: none;
-
     }
-
 }
 
 @media screen and (min-width: 600px) {
     .subtract {
         display: none;
     }
+
+    .offers {
+        padding: 20px;
+
+        margin: 20px 0px;
+    }
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .offers {
+        padding: 20px;
 
-@media screen and (min-width: 1020px) {
-    .tropicalAdventure {
+        margin: 30px 0px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .offers {
+        order: 1;
+    }
+
+    .availableDiscounts {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -131,13 +211,52 @@
 
     .ellipse {
         display: inline;
-
     }
 
     .subtract {
         display: inline;
     }
 
+    .discountimageContainer {
+        order: 2;
+        height: 540px;
+        width: 450px;
 
+        position: relative;
+        border-radius: 0 0 55% 55%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .discountimageContainer1 {
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        position: absolute;
+
+        /* border-radius: 100% 100% 0 0; */
+        /* background-color: #87cc81; */
+        bottom: 0;
+    }
+
+    .profileImage {
+        height: 600px;
+        width: 400px;
+        /* position: absolute;
+        bottom: 0; */
+    }
+
+    .logo6 {
+        display: inline;
+    }
+
+    .logo7 {
+        display: inline;
+    }
+
+    .logo8 {
+        display: inline;
+    }
 }

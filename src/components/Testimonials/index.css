@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    font-family: "Inter", sans-serif;
 }
 
 .testimonials h1 {
@@ -26,26 +26,9 @@
 
     margin: auto;
     padding: 20px 0px;
-
 }
 
-
-
-
-
-@media screen and (max-width: 600px) {}
-
-@media screen and (min-width: 600px) {}
-
-
-@media screen and (min-width: 768px) {}
-
-
-@media screen and (min-width: 992px) {}
-
-
 @media screen and (min-width: 1200px) {
-
     .testimonials h1 {
         color: #000;
         text-align: center;
@@ -56,5 +39,4 @@
         line-height: normal;
         margin-bottom: 70px;
     }
-
 }

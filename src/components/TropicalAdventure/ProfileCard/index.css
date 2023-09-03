@@ -1,10 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 .profileCard {
     display: flex;
     background-color: white;
     padding: 25px;
+    font-family: "Roboto", sans-serif;
     align-items: center;
     margin: 50px 0px;
     border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .profileCard img {
@@ -32,41 +36,8 @@
     letter-spacing: 0.5px;
 }
 
-
-
 @media screen and (max-width: 600px) {
     .profileCard {
         margin: 20px 10px;
-
-    }
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (min-width: 600px) {
-    body {
-        background-color: rgb(133, 239, 133);
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media screen and (min-width: 768px) {
-
-    body {
-        background-color: rgb(254, 175, 188);
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    body {
-        background-color: rgb(115, 100, 190);
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
-    body {
-        background-color: rgb(95, 189, 183);
     }
 }

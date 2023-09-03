@@ -11,7 +11,12 @@ const BookNow = () => {
 
   return (
     <div className="book">
-      <div className="test">hello</div>
+      <img className="circle" src="/circle.png" alt="circle" />
+      <div className="imageContainer">
+        <img className="profileImage" src="/BooknowImage.png" alt="profile" />
+        <img className="recbox" src="/recbox.png" alt="rec" />
+      </div>
+      <img className="circle2" src="/circle.png" alt="circle" />
       <div className="booknow">
         <h1>Book now</h1>
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
